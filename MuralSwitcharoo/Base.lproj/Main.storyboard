@@ -80,7 +80,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" name="Pink"/>
-                        <color key="selectedImageTintColor" name="DarkishBlue"/>
+                        <color key="selectedImageTintColor" red="1" green="0.36108914819999999" blue="0.59713553900000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="muX-jk-lqv" kind="relationship" relationship="viewControllers" id="jZi-82-Zxt"/>
@@ -116,9 +116,6 @@
         <image name="list" width="44" height="42"/>
         <namedColor name="Cyan">
             <color red="0.78823529411764703" green="0.92156862745098034" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
-        <namedColor name="DarkishBlue">
-            <color red="0.41176470588235292" green="0.65098039215686276" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Pink">
             <color red="0.9882352941176471" green="0.67843137254901964" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
