@@ -15,6 +15,24 @@
                     <view key="view" contentMode="scaleToFill" id="9dX-0b-IuA">
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="RRa-3y-Ck0">
+                                <rect key="frame" x="60" y="303" width="235" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="tSt-jk-Au3">
+                                <rect key="frame" x="303" y="303" width="235" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i4Y-PD-feN">
+                                <rect key="frame" x="546" y="303" width="235" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xsN-BT-f8g">
+                                <rect key="frame" x="789" y="303" width="235" height="205"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="seU-tP-5Kx"/>
                         <color key="backgroundColor" name="Peach"/>
                     </view>
@@ -22,7 +40,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="91H-j9-hKG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-419" y="-296"/>
+            <point key="canvasLocation" x="-419.44444444444446" y="-296.2962962962963"/>
         </scene>
         <!--About Pics View Controller-->
         <scene sceneID="0jb-Kr-XKF">
@@ -48,7 +66,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <color key="tintColor" name="DarkishBlue"/>
+                        <color key="tintColor" name="Pink"/>
                     </tabBar>
                     <connections>
                         <segue destination="muX-jk-lqv" kind="relationship" relationship="viewControllers" id="jZi-82-Zxt"/>
@@ -82,11 +100,11 @@
         <image name="crown" width="52" height="44"/>
         <image name="house" width="58" height="48"/>
         <image name="list" width="44" height="42"/>
-        <namedColor name="DarkishBlue">
-            <color red="0.41176470588235292" green="0.65098039215686276" blue="0.81960784313725488" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-        </namedColor>
         <namedColor name="Peach">
             <color red="1" green="0.83137254901960789" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Pink">
+            <color red="0.9882352941176471" green="0.67843137254901964" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
     </resources>
 </document>
