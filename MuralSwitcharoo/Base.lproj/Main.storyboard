@@ -79,9 +79,21 @@
                         <action selector="pic1move:" destination="Jum-BC-1go" id="Obq-pc-51i"/>
                     </connections>
                 </panGestureRecognizer>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="Gc9-rm-mD8"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="hoM-f3-2VG"/>
-                <panGestureRecognizer minimumNumberOfTouches="1" id="llp-bU-Voq"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Gc9-rm-mD8">
+                    <connections>
+                        <action selector="pic2move:" destination="Jum-BC-1go" id="946-oU-Zp1"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="hoM-f3-2VG">
+                    <connections>
+                        <action selector="pic3move:" destination="Jum-BC-1go" id="er3-Mu-qpV"/>
+                    </connections>
+                </panGestureRecognizer>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="llp-bU-Voq">
+                    <connections>
+                        <action selector="pic4move:" destination="Jum-BC-1go" id="VGv-Vb-KJJ"/>
+                    </connections>
+                </panGestureRecognizer>
             </objects>
             <point key="canvasLocation" x="-419.44444444444446" y="-296.2962962962963"/>
         </scene>
