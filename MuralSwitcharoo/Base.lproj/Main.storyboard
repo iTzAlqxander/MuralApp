@@ -19,14 +19,26 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic1" translatesAutoresizingMaskIntoConstraints="NO" id="RRa-3y-Ck0">
                                 <rect key="frame" x="0.0" y="263" width="280" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="7Aq-zq-3Wd" appends="YES" id="amr-T4-K9g"/>
+                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="tSt-jk-Au3">
                                 <rect key="frame" x="287" y="263" width="280" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="Gc9-rm-mD8" appends="YES" id="a2L-5H-P6D"/>
+                                </connections>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic4" translatesAutoresizingMaskIntoConstraints="NO" id="xsN-BT-f8g">
                                 <rect key="frame" x="800" y="274" width="280" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="llp-bU-Voq" appends="YES" id="Wwg-rR-ypw"/>
+                                </connections>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KaP-5h-WeE">
                                 <rect key="frame" x="113" y="101" width="855" height="154"/>
@@ -44,14 +56,28 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic3" translatesAutoresizingMaskIntoConstraints="NO" id="i4Y-PD-feN">
                                 <rect key="frame" x="556" y="482" width="280" height="235"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="hoM-f3-2VG" appends="YES" id="HHt-gr-BQt"/>
+                                </connections>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="seU-tP-5Kx"/>
                         <color key="backgroundColor" name="Cyan"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="house" id="cuN-0A-oSL"/>
+                    <connections>
+                        <outlet property="pic1" destination="RRa-3y-Ck0" id="gwD-9F-Yzv"/>
+                        <outlet property="pic2" destination="tSt-jk-Au3" id="Oxl-u8-PfV"/>
+                        <outlet property="pic3" destination="i4Y-PD-feN" id="eLb-qV-ENb"/>
+                        <outlet property="pic4" destination="xsN-BT-f8g" id="EiY-Bb-aRQ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="91H-j9-hKG" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="7Aq-zq-3Wd"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="Gc9-rm-mD8"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="hoM-f3-2VG"/>
+                <panGestureRecognizer minimumNumberOfTouches="1" id="llp-bU-Voq"/>
             </objects>
             <point key="canvasLocation" x="-419.44444444444446" y="-296.2962962962963"/>
         </scene>
