@@ -19,7 +19,11 @@ class pictureViewController: UIViewController {
 
     }
     
-
+    @IBAction func pic1move(_ sender: UIPanGestureRecognizer) {
+        var point = sender.location(in: view)
+        pic1.center = CGPoint(x: point.x, y: point.y)
+    }
+    
  
 
 }
