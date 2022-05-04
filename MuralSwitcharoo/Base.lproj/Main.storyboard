@@ -111,7 +111,7 @@
                                 <attributedString key="attributedText">
                                     <fragment content="Our Story">
                                         <attributes>
-                                            <color key="NSColor" red="0.56716713114057915" green="0.66677012741004049" blue="0.70071038967225607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <color key="NSColor" red="0.77919925567617665" green="0.6297532171217971" blue="0.69063742059739119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="48" name="HelveticaNeue-Light"/>
                                             <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
                                         </attributes>
@@ -120,7 +120,7 @@
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ICH-9m-VmH"/>
-                        <color key="backgroundColor" name="Cyan"/>
+                        <color key="backgroundColor" red="1" green="0.79979173135210568" blue="0.87549428859648759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="info.circle" catalog="system" id="uxv-yp-2oa"/>
                 </viewController>
@@ -163,7 +163,7 @@
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="k2U-Zd-2u1"/>
-                        <color key="backgroundColor" name="Cyan"/>
+                        <color key="backgroundColor" name="Peach"/>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="camera" catalog="system" id="gjk-1N-Jfs"/>
                 </viewController>
@@ -184,6 +184,9 @@
         <image name="pic4" width="933" height="774"/>
         <namedColor name="Cyan">
             <color red="0.78823529411764703" green="0.92156862745098034" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="Peach">
+            <color red="1" green="0.83137254901960789" blue="0.69411764705882351" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
         <namedColor name="Pink">
             <color red="0.9882352941176471" green="0.67843137254901964" blue="0.69019607843137254" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
