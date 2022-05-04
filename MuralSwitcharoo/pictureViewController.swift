@@ -7,41 +7,84 @@
 
 import UIKit
 
-class pictureViewController: UIViewController {
+class pictureViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
-    @IBOutlet weak var pic1: UIImageView!
-    @IBOutlet weak var pic2: UIImageView!
-    @IBOutlet weak var pic3: UIImageView!
-    @IBOutlet weak var pic4: UIImageView!
+    private var collectionView : UICollectionView?
+    
+    var colors: [UIColor] = [
+        .black,
+        .green,
+        .red,
+        .blue
+    ]
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let layout = UICollectionViewFlowLayout()
+        layout.scrollDirection = .vertical
+        layout.itemSize = CGSize(width: view.frame.size.width/4,
+                                 height: view.frame.size.width/4)
+        layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
+        collectionView?.register(UICollectionViewCell.self,
+                                 forCellWithReuseIdentifier: "cell")
+        collectionView?.delegate = self
+        collectionView?.dataSource =  self
+        collectionView?.backgroundColor = .white
+        view.addSubview(collectionView!)
 
-    }
-    //goes off the screen at point.x = 122. Fix
-    
-    @IBAction func pic1move(_ sender: UIPanGestureRecognizer) {
-        var point = sender.location(in: view)
-        self.view.bringSubviewToFront(pic1)
-        pic1.center = CGPoint(x: point.x, y: 430)
+        let gesture = UILongPressGestureRecognizer(target: self,
+                                                   action: #selector(handleLongPressGesture(gesture :)))
+        collectionView?.addGestureRecognizer(gesture)
     }
     
-    @IBAction func pic2move(_ sender: UIPanGestureRecognizer) {
-        var point = sender.location(in: view)
-        self.view.bringSubviewToFront(pic2)
-        pic2.center = CGPoint(x: point.x, y: 430)
+    @objc func handleLongPressGesture( gesture: UILongPressGestureRecognizer) {
+        guard let collectionView = collectionView else {
+            return
+        }
+        
+        switch gesture.state{
+        case .began:
+            guard let targetIndexPath = collectionView.indexPathForItem(at: gesture.location(in: collectionView)) else{
+                return
+            }
+            collectionView.beginInteractiveMovementForItem(at: targetIndexPath)
+        case .changed:
+            collectionView.updateInteractiveMovementTargetPosition(gesture.location(in: collectionView))
+        case .ended:
+            collectionView.endInteractiveMovement()
+        default:
+            collectionView.cancelInteractiveMovement()
+        }
+        
     }
     
-    @IBAction func pic3move(_ sender: UIPanGestureRecognizer) {
-        var point = sender.location(in: view)
-        self.view.bringSubviewToFront(pic3)
-        pic3.center = CGPoint(x: point.x, y: 430)
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+        collectionView?.frame  = view.bounds
     }
     
-    @IBAction func pic4move(_ sender: UIPanGestureRecognizer) {
-        var point = sender.location(in: view)
-        self.view.bringSubviewToFront(pic4)
-        pic4.center = CGPoint(x: point.x, y: 430)
+    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        return colors.count
     }
     
+    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
+        cell.backgroundColor = colors[indexPath.row]
+        return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        return CGSize(width: view.frame.size.width/4,
+                      height: view.frame.size.width/4)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, canMoveItemAt indexPath: IndexPath) -> Bool {
+        return true
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
+        let item = colors.remove(at: sourceIndexPath.row)
+        colors.insert(item, at: destinationIndexPath.row)
+    }
 }
