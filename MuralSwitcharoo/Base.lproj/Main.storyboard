@@ -65,7 +65,7 @@
                         <viewLayoutGuide key="safeArea" id="seU-tP-5Kx"/>
                         <color key="backgroundColor" name="Cyan"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="house" id="cuN-0A-oSL"/>
+                    <tabBarItem key="tabBarItem" title="" image="house" catalog="system" id="cuN-0A-oSL"/>
                     <connections>
                         <outlet property="pic1" destination="RRa-3y-Ck0" id="gwD-9F-Yzv"/>
                         <outlet property="pic2" destination="tSt-jk-Au3" id="Oxl-u8-PfV"/>
@@ -106,10 +106,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beE-A8-CZj">
-                                <rect key="frame" x="113" y="49" width="855" height="154"/>
+                                <rect key="frame" x="113" y="0.0" width="855" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Mural Information">
+                                    <fragment content="Our Story">
                                         <attributes>
                                             <color key="NSColor" red="0.56716713114057915" green="0.66677012741004049" blue="0.70071038967225607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="48" name="HelveticaNeue-Light"/>
@@ -122,11 +122,11 @@
                         <viewLayoutGuide key="safeArea" id="ICH-9m-VmH"/>
                         <color key="backgroundColor" name="Cyan"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="list" id="uxv-yp-2oa"/>
+                    <tabBarItem key="tabBarItem" title="" image="info.circle" catalog="system" id="uxv-yp-2oa"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0r-QJ-bN1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-419" y="-1028"/>
+            <point key="canvasLocation" x="-419.44444444444446" y="-1028.148148148148"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nGu-ut-ddb">
@@ -137,7 +137,7 @@
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <color key="tintColor" name="Pink"/>
-                        <color key="selectedImageTintColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                     </tabBar>
                     <connections>
                         <segue destination="muX-jk-lqv" kind="relationship" relationship="viewControllers" id="jZi-82-Zxt"/>
@@ -165,7 +165,7 @@
                         <viewLayoutGuide key="safeArea" id="k2U-Zd-2u1"/>
                         <color key="backgroundColor" name="Cyan"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="crown" id="gjk-1N-Jfs"/>
+                    <tabBarItem key="tabBarItem" title="" image="camera" catalog="system" id="gjk-1N-Jfs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="brz-JA-Dod" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -174,10 +174,10 @@
     </scenes>
     <color key="tintColor" red="0.79599236278999141" green="0.024122587882367662" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
+        <image name="camera" catalog="system" width="128" height="94"/>
         <image name="collage" width="3264" height="2256"/>
-        <image name="crown" width="52" height="44"/>
-        <image name="house" width="58" height="48"/>
-        <image name="list" width="44" height="42"/>
+        <image name="house" catalog="system" width="128" height="106"/>
+        <image name="info.circle" catalog="system" width="128" height="121"/>
         <image name="pic1" width="911" height="749"/>
         <image name="pic2" width="861" height="696"/>
         <image name="pic3" width="905" height="751"/>
