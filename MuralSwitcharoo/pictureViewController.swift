@@ -22,8 +22,7 @@ class pictureViewController: UIViewController, UICollectionViewDelegate, UIColle
         super.viewDidLoad()
         let layout = UICollectionViewFlowLayout()
         layout.scrollDirection = .vertical
-        layout.itemSize = CGSize(width: view.frame.size.width/4,
-                                 height: view.frame.size.width/4)
+        layout.itemSize = CGSize(width: (view.frame.size.width/4)-4, height: (view.frame.size.width/4)-4)
         layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
         collectionView?.register(UICollectionViewCell.self,
@@ -75,8 +74,8 @@ class pictureViewController: UIViewController, UICollectionViewDelegate, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
-        return CGSize(width: view.frame.size.width/4,
-                      height: view.frame.size.width/4)
+        return CGSize(width: (view.frame.size.width/4)-4,
+                      height: (view.frame.size.width/4)-4)
     }
     
     func collectionView(_ collectionView: UICollectionView, canMoveItemAt indexPath: IndexPath) -> Bool {
@@ -86,5 +85,13 @@ class pictureViewController: UIViewController, UICollectionViewDelegate, UIColle
     func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
         let item = colors.remove(at: sourceIndexPath.row)
         colors.insert(item, at: destinationIndexPath.row)
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
+        return 1
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
+        return 1
     }
 }
