@@ -87,28 +87,28 @@
                                                 <gestureRecognizers/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4X-Rr-Bpw">
-                                                <rect key="frame" x="526" y="739" width="546" height="427"/>
+                                                <rect key="frame" x="526" y="762" width="546" height="427"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <mutableString key="text">Here we have the Two Warriors on the mural. The woman on the right stands for cultures from the Eastern Hemisphere, as seen in the architecture on her headpiece, and the woman on the left stands for cultures from the Western Hemisphere, where you can see the Chicago skyline on her headpiece. Both women carry the legacy of cultures and traditions ranging from ancient to modern, and their headpieces represent how much we’ve learned and grown. They are facing each other for two reasons- One, they are welcoming the other and sharing their cultures, traditions, and knowledge. They are also facing each other off in a debate between contrasting opinions, needs, and wants. In this debate, each woman comes to a greater understanding of the other, and her culture. This is a reflection of both our process of creating the mural and our hope for what people will take away from it. Many contrasting cultures came together and had a debate, a conversation, and came to a greater understanding of both ourselves and of each other, and we hope that this piece in the mural, and the mural as a whole, will encourage people to listen to everyone’s unique voice. 
 </mutableString>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIY-91-Ef5">
-                                                <rect key="frame" x="64" y="351" width="428" height="338"/>
+                                                <rect key="frame" x="34" y="364" width="477" height="338"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <mutableString key="text">The Tree we have in the mural has a Heart at the center representing the core of the world. The tree was also meant to represent life itself. Keeping the tree together was a point we wanted to emphasize because the heart provides what we need the most from one another which is love and acceptance. After some research, we learned that our deemed perspective of mangos actually originates from South Asia. Not from Mexico. We decided to implement it in the mural to show how similar we really are despite coming from different parts of the world.</mutableString>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZW-Ql-Tak">
-                                                <rect key="frame" x="34" y="1205" width="458" height="361"/>
+                                                <rect key="frame" x="34" y="1205" width="484" height="361"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Just looking at the mural, we can see that each part has a meaning. Every brush stroke was painted for a reason. The Globe, for instance, was painted with very fine brushwork in order to show the fragility of the earth, and how it is in our Hands to take care of the world, and each other. Another major aspect of that panel is the people, which represent the diversity of our ancestors. We wanted to showcase various cultures and also that even though we see the planet through different windows, we are all like a different slice of pizza. Each slice is needed to complete the circle, the world.
-</mutableString>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <string key="text">The Globe was painted with very fine brushwork in order to show the fragility of the earth, and how it is in our Hands to take care of the world, and each other. Another major aspect of that panel is the people, which represent the diversity of our ancestors. We wanted to showcase various cultures and also that even though we see the planet through different windows, we are all like a different slice of pizza. Each slice is needed to complete the circle, the world.
+</string>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -120,6 +120,27 @@
 On the panel we have a Phoenix rising from the ashes. The phoenix is our past ancestors rising and blooming into a bright and powerful phoenix which is now us and our present. This piece was a reminder of what we had to do to make this mural and take part in such an important part of our history as a heresy community. 
 </mutableString>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tree &amp; Heart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZW-8Z-ltz">
+                                                <rect key="frame" x="121" y="347" width="259" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Two Warriors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g52-dC-9TO">
+                                                <rect key="frame" x="670" y="739" width="259" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Globe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzT-ho-MQ3">
+                                                <rect key="frame" x="134" y="1174" width="259" height="55"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
@@ -156,6 +177,13 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
                                         </attributes>
                                     </fragment>
                                 </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Just looking at the mural, we can see that each part has a meaning. Every brush stroke was painted for a reason." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="h3Z-bO-eI1">
+                                <rect key="frame" x="113" y="20" width="1665" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
