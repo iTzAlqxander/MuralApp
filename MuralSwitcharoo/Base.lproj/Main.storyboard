@@ -82,7 +82,7 @@
                                                 <gestureRecognizers/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic3" translatesAutoresizingMaskIntoConstraints="NO" id="ZyS-Vf-5ng">
-                                                <rect key="frame" x="805" y="833" width="250" height="200"/>
+                                                <rect key="frame" x="649" y="312" width="250" height="200"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
@@ -168,6 +168,9 @@
         <image name="collage" width="3264" height="2256"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="pic1" width="911" height="749"/>
+        <image name="pic2" width="861" height="696"/>
+        <image name="pic3" width="905" height="751"/>
         <namedColor name="Cyan">
             <color red="0.78823529411764703" green="0.92156862745098034" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
