@@ -102,7 +102,7 @@
             <objects>
                 <viewController id="muX-jk-lqv" customClass="aboutPicsViewController" customModule="MuralSwitcharoo" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="zzF-qf-1d2">
-                        <rect key="frame" x="0.0" y="0.0" width="1080" height="810"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1080" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beE-A8-CZj">
@@ -118,15 +118,63 @@
                                     </fragment>
                                 </attributedString>
                             </label>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vj5-Yw-uKi">
+                                <rect key="frame" x="0.0" y="123" width="1080" height="1027"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdg-4t-zpS" userLabel="Content View">
+                                        <rect key="frame" x="0.0" y="103" width="1080" height="1200"/>
+                                        <subviews>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic1" translatesAutoresizingMaskIntoConstraints="NO" id="JUk-ew-AoQ">
+                                                <rect key="frame" x="91" y="659" width="250" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="aIU-6h-Pks">
+                                                <rect key="frame" x="349" y="680" width="250" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic3" translatesAutoresizingMaskIntoConstraints="NO" id="F0A-Y0-CqT">
+                                                <rect key="frame" x="607" y="659" width="250" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic3" translatesAutoresizingMaskIntoConstraints="NO" id="ZyS-Vf-5ng">
+                                                <rect key="frame" x="805" y="833" width="250" height="200"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                            </imageView>
+                                        </subviews>
+                                        <color key="backgroundColor" red="0.99529427290000005" green="0.79893356559999995" blue="0.87632453440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="1200" id="hW7-CL-Id5"/>
+                                        </constraints>
+                                    </view>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="qdg-4t-zpS" firstAttribute="top" secondItem="Vj5-Yw-uKi" secondAttribute="top" constant="103" id="3hr-yi-OFJ"/>
+                                    <constraint firstItem="qdg-4t-zpS" firstAttribute="leading" secondItem="Vj5-Yw-uKi" secondAttribute="leading" id="QvK-SC-xft"/>
+                                    <constraint firstAttribute="bottom" secondItem="qdg-4t-zpS" secondAttribute="bottom" id="emX-XK-yOn"/>
+                                    <constraint firstAttribute="trailing" secondItem="qdg-4t-zpS" secondAttribute="trailing" id="lsn-mc-utO"/>
+                                </constraints>
+                            </scrollView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ICH-9m-VmH"/>
-                        <color key="backgroundColor" red="1" green="0.79979173135210568" blue="0.87549428859648759" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.99529427290000005" green="0.79893356559999995" blue="0.87632453440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="qdg-4t-zpS" firstAttribute="width" secondItem="zzF-qf-1d2" secondAttribute="width" id="ABP-DR-EPN"/>
+                            <constraint firstItem="Vj5-Yw-uKi" firstAttribute="leading" secondItem="ICH-9m-VmH" secondAttribute="leading" id="L55-NE-bzf"/>
+                            <constraint firstItem="Vj5-Yw-uKi" firstAttribute="top" secondItem="ICH-9m-VmH" secondAttribute="top" constant="103" id="SxP-IF-oCP"/>
+                            <constraint firstItem="Vj5-Yw-uKi" firstAttribute="bottom" secondItem="ICH-9m-VmH" secondAttribute="bottom" id="fmu-Z7-3DA"/>
+                            <constraint firstItem="Vj5-Yw-uKi" firstAttribute="trailing" secondItem="ICH-9m-VmH" secondAttribute="trailing" id="l3j-Fz-BRf"/>
+                        </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="" image="info.circle" catalog="system" id="uxv-yp-2oa"/>
+                    <size key="freeformSize" width="1080" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0r-QJ-bN1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-419.44444444444446" y="-1028.148148148148"/>
+            <point key="canvasLocation" x="-407" y="-1250"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nGu-ut-ddb">
