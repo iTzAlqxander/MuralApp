@@ -48,10 +48,10 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beE-A8-CZj">
-                                <rect key="frame" x="113" y="0.0" width="855" height="154"/>
+                                <rect key="frame" x="113" y="-12" width="855" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Our Story">
+                                    <fragment content="About">
                                         <attributes>
                                             <color key="NSColor" red="0.77919925567617665" green="0.6297532171217971" blue="0.69063742059739119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="48" name="HelveticaNeue-Light"/>
@@ -64,34 +64,78 @@
                                 <rect key="frame" x="0.0" y="123" width="1080" height="1027"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qdg-4t-zpS" userLabel="Content View">
-                                        <rect key="frame" x="0.0" y="103" width="1080" height="1200"/>
+                                        <rect key="frame" x="0.0" y="103" width="1080" height="1600"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic1" translatesAutoresizingMaskIntoConstraints="NO" id="JUk-ew-AoQ">
-                                                <rect key="frame" x="91" y="659" width="250" height="200"/>
+                                                <rect key="frame" x="8" y="-65" width="484" height="365"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="aIU-6h-Pks">
-                                                <rect key="frame" x="349" y="680" width="250" height="200"/>
+                                                <rect key="frame" x="564" y="311" width="490" height="391"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic3" translatesAutoresizingMaskIntoConstraints="NO" id="F0A-Y0-CqT">
-                                                <rect key="frame" x="607" y="659" width="250" height="200"/>
+                                                <rect key="frame" x="0.0" y="739" width="541" height="399"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic3" translatesAutoresizingMaskIntoConstraints="NO" id="ZyS-Vf-5ng">
-                                                <rect key="frame" x="649" y="312" width="250" height="200"/>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic4" translatesAutoresizingMaskIntoConstraints="NO" id="ZyS-Vf-5ng">
+                                                <rect key="frame" x="526" y="1174" width="546" height="418"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4X-Rr-Bpw">
+                                                <rect key="frame" x="526" y="739" width="546" height="427"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Here we have the Two Warriors on the mural. The woman on the right stands for cultures from the Eastern Hemisphere, as seen in the architecture on her headpiece, and the woman on the left stands for cultures from the Western Hemisphere, where you can see the Chicago skyline on her headpiece. Both women carry the legacy of cultures and traditions ranging from ancient to modern, and their headpieces represent how much we’ve learned and grown. They are facing each other for two reasons- One, they are welcoming the other and sharing their cultures, traditions, and knowledge. They are also facing each other off in a debate between contrasting opinions, needs, and wants. In this debate, each woman comes to a greater understanding of the other, and her culture. This is a reflection of both our process of creating the mural and our hope for what people will take away from it. Many contrasting cultures came together and had a debate, a conversation, and came to a greater understanding of both ourselves and of each other, and we hope that this piece in the mural, and the mural as a whole, will encourage people to listen to everyone’s unique voice. 
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIY-91-Ef5">
+                                                <rect key="frame" x="64" y="351" width="428" height="338"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">The Tree we have in the mural has a Heart at the center representing the core of the world. The tree was also meant to represent life itself. Keeping the tree together was a point we wanted to emphasize because the heart provides what we need the most from one another which is love and acceptance. After some research, we learned that our deemed perspective of mangos actually originates from South Asia. Not from Mexico. We decided to implement it in the mural to show how similar we really are despite coming from different parts of the world.</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZW-Ql-Tak">
+                                                <rect key="frame" x="34" y="1205" width="458" height="361"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">Just looking at the mural, we can see that each part has a meaning. Every brush stroke was painted for a reason. The Globe, for instance, was painted with very fine brushwork in order to show the fragility of the earth, and how it is in our Hands to take care of the world, and each other. Another major aspect of that panel is the people, which represent the diversity of our ancestors. We wanted to showcase various cultures and also that even though we see the planet through different windows, we are all like a different slice of pizza. Each slice is needed to complete the circle, the world.
+</mutableString>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGJ-bt-syy">
+                                                <rect key="frame" x="526" y="-36" width="505" height="349"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <mutableString key="text">There are Music Notes painted across the mural, which read the song ‘Ode to Joy’ because this song is about a vision of the human race living together in peace and harmony. Music has the power to create unity and to bring us together. It creates a sense of belonging because it exists in every culture. Music is a universal language. 
+
+On the panel we have a Phoenix rising from the ashes. The phoenix is our past ancestors rising and blooming into a bright and powerful phoenix which is now us and our present. This piece was a reminder of what we had to do to make this mural and take part in such an important part of our history as a heresy community. 
+</mutableString>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                         </subviews>
                                         <color key="backgroundColor" red="0.99529427290000005" green="0.79893356559999995" blue="0.87632453440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="1200" id="hW7-CL-Id5"/>
+                                            <constraint firstAttribute="height" constant="1600" id="VXc-Pc-Caw"/>
                                         </constraints>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music &amp; Phoenix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jm7-Ds-iY4">
+                                        <rect key="frame" x="614" y="15" width="259" height="55"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="qdg-4t-zpS" firstAttribute="top" secondItem="Vj5-Yw-uKi" secondAttribute="top" constant="103" id="3hr-yi-OFJ"/>
@@ -100,6 +144,20 @@
                                     <constraint firstAttribute="trailing" secondItem="qdg-4t-zpS" secondAttribute="trailing" id="lsn-mc-utO"/>
                                 </constraints>
                             </scrollView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avz-qd-cPm">
+                                <rect key="frame" x="405" y="93" width="299" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Written by: LASO, BSA, DAY, IndoPak ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.78069978949999996" green="0.6305594444" blue="0.69165486099999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="18" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ICH-9m-VmH"/>
                         <color key="backgroundColor" red="0.99529427290000005" green="0.79893356559999995" blue="0.87632453440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -116,7 +174,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="P0r-QJ-bN1" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-407" y="-1250"/>
+            <point key="canvasLocation" x="-407.22222222222223" y="-1250.3703703703702"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nGu-ut-ddb">
@@ -171,6 +229,7 @@
         <image name="pic1" width="911" height="749"/>
         <image name="pic2" width="861" height="696"/>
         <image name="pic3" width="905" height="751"/>
+        <image name="pic4" width="933" height="774"/>
         <namedColor name="Cyan">
             <color red="0.78823529411764703" green="0.92156862745098034" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
