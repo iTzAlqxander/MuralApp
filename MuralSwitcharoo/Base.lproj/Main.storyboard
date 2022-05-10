@@ -54,22 +54,27 @@
                                         <rect key="frame" x="0.0" y="103" width="1080" height="1600"/>
                                         <subviews>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic1" translatesAutoresizingMaskIntoConstraints="NO" id="JUk-ew-AoQ">
-                                                <rect key="frame" x="8" y="-65" width="484" height="365"/>
+                                                <rect key="frame" x="0.0" y="-66" width="484" height="365"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="aIU-6h-Pks">
-                                                <rect key="frame" x="528" y="311" width="490" height="391"/>
+                                                <rect key="frame" x="499" y="311" width="490" height="391"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic3" translatesAutoresizingMaskIntoConstraints="NO" id="F0A-Y0-CqT">
-                                                <rect key="frame" x="0.0" y="739" width="541" height="399"/>
+                                                <rect key="frame" x="-20" y="739" width="541" height="399"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <gestureRecognizers/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic4" translatesAutoresizingMaskIntoConstraints="NO" id="ZyS-Vf-5ng">
+                                                <rect key="frame" x="508" y="1182" width="546" height="418"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4X-Rr-Bpw">
-                                                <rect key="frame" x="528" y="775" width="526" height="427"/>
+                                                <rect key="frame" x="508" y="774" width="526" height="427"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Here we have the Two Warriors on the mural. The woman on the right stands for cultures from the Eastern Hemisphere, as seen in the architecture on her headpiece, and the woman on the left stands for cultures from the Western Hemisphere, where you can see the Chicago skyline on her headpiece. Both women carry the legacy of cultures and traditions ranging from ancient to modern, and their headpieces represent how much we’ve learned and grown. They are facing each other for two reasons- One, they are welcoming the other and sharing their cultures, traditions, and knowledge. They are also facing each other off in a debate between contrasting opinions, needs, and wants. In this debate, each woman comes to a greater understanding of the other, and her culture. This is a reflection of both our process of creating the mural and our hope for what people will take away from it. Many contrasting cultures came together and had a debate, a conversation, and came to a greater understanding of both ourselves and of each other, and we hope that this piece in the mural, and the mural as a whole, will encourage people to listen to everyone’s unique voice. 
 </string>
@@ -78,7 +83,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIY-91-Ef5">
-                                                <rect key="frame" x="34" y="364" width="477" height="338"/>
+                                                <rect key="frame" x="12" y="364" width="477" height="338"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">The Tree we have in the mural has a Heart at the center representing the core of the world. The tree was also meant to represent life itself. Keeping the tree together was a point we wanted to emphasize because the heart provides what we need the most from one another which is love and acceptance. After some research, we learned that our deemed perspective of mangos actually originates from South Asia. Not from Mexico. We decided to implement it in the mural to show how similar we really are despite coming from different parts of the world.</string>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
@@ -86,7 +91,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZW-Ql-Tak">
-                                                <rect key="frame" x="34" y="1203" width="484" height="361"/>
+                                                <rect key="frame" x="16" y="1208" width="484" height="361"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">The Globe was painted with very fine brushwork in order to show the fragility of the earth, and how it is in our Hands to take care of the world, and each other. Another major aspect of that panel is the people, which represent the diversity of our ancestors. We wanted to showcase various cultures and also that even though we see the planet through different windows, we are all like a different slice of pizza. Each slice is needed to complete the circle, the world.
 </string>
@@ -95,7 +100,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGJ-bt-syy">
-                                                <rect key="frame" x="500" y="-31" width="505" height="349"/>
+                                                <rect key="frame" x="492" y="-32" width="505" height="349"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">There are Music Notes painted across the mural, which read the song ‘Ode to Joy’ because this song is about a vision of the human race living together in peace and harmony. Music has the power to create unity and to bring us together. It creates a sense of belonging because it exists in every culture. Music is a universal language. 
 
@@ -113,24 +118,19 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Two Warriors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g52-dC-9TO">
-                                                <rect key="frame" x="670" y="739" width="259" height="55"/>
+                                                <rect key="frame" x="642" y="725" width="259" height="55"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Globe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzT-ho-MQ3">
-                                                <rect key="frame" x="134" y="1174" width="259" height="55"/>
+                                                <rect key="frame" x="121" y="1198" width="259" height="55"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic4" translatesAutoresizingMaskIntoConstraints="NO" id="ZyS-Vf-5ng">
-                                                <rect key="frame" x="508" y="1182" width="546" height="418"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <gestureRecognizers/>
-                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.99529427290000005" green="0.79893356559999995" blue="0.87632453440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
