@@ -47,19 +47,6 @@
                         <rect key="frame" x="0.0" y="0.0" width="1080" height="1200"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beE-A8-CZj">
-                                <rect key="frame" x="113" y="-12" width="855" height="154"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <attributedString key="attributedText">
-                                    <fragment content="About">
-                                        <attributes>
-                                            <color key="NSColor" red="0.77919925567617665" green="0.6297532171217971" blue="0.69063742059739119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                            <font key="NSFont" size="48" name="HelveticaNeue-Light"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
-                            </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vj5-Yw-uKi">
                                 <rect key="frame" x="0.0" y="123" width="1080" height="1027"/>
                                 <subviews>
@@ -89,18 +76,18 @@
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4X-Rr-Bpw">
                                                 <rect key="frame" x="526" y="762" width="546" height="427"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">Here we have the Two Warriors on the mural. The woman on the right stands for cultures from the Eastern Hemisphere, as seen in the architecture on her headpiece, and the woman on the left stands for cultures from the Western Hemisphere, where you can see the Chicago skyline on her headpiece. Both women carry the legacy of cultures and traditions ranging from ancient to modern, and their headpieces represent how much we’ve learned and grown. They are facing each other for two reasons- One, they are welcoming the other and sharing their cultures, traditions, and knowledge. They are also facing each other off in a debate between contrasting opinions, needs, and wants. In this debate, each woman comes to a greater understanding of the other, and her culture. This is a reflection of both our process of creating the mural and our hope for what people will take away from it. Many contrasting cultures came together and had a debate, a conversation, and came to a greater understanding of both ourselves and of each other, and we hope that this piece in the mural, and the mural as a whole, will encourage people to listen to everyone’s unique voice. 
-</mutableString>
+                                                <string key="text">Here we have the Two Warriors on the mural. The woman on the right stands for cultures from the Eastern Hemisphere, as seen in the architecture on her headpiece, and the woman on the left stands for cultures from the Western Hemisphere, where you can see the Chicago skyline on her headpiece. Both women carry the legacy of cultures and traditions ranging from ancient to modern, and their headpieces represent how much we’ve learned and grown. They are facing each other for two reasons- One, they are welcoming the other and sharing their cultures, traditions, and knowledge. They are also facing each other off in a debate between contrasting opinions, needs, and wants. In this debate, each woman comes to a greater understanding of the other, and her culture. This is a reflection of both our process of creating the mural and our hope for what people will take away from it. Many contrasting cultures came together and had a debate, a conversation, and came to a greater understanding of both ourselves and of each other, and we hope that this piece in the mural, and the mural as a whole, will encourage people to listen to everyone’s unique voice. 
+</string>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="18"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NIY-91-Ef5">
                                                 <rect key="frame" x="34" y="364" width="477" height="338"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">The Tree we have in the mural has a Heart at the center representing the core of the world. The tree was also meant to represent life itself. Keeping the tree together was a point we wanted to emphasize because the heart provides what we need the most from one another which is love and acceptance. After some research, we learned that our deemed perspective of mangos actually originates from South Asia. Not from Mexico. We decided to implement it in the mural to show how similar we really are despite coming from different parts of the world.</mutableString>
+                                                <string key="text">The Tree we have in the mural has a Heart at the center representing the core of the world. The tree was also meant to represent life itself. Keeping the tree together was a point we wanted to emphasize because the heart provides what we need the most from one another which is love and acceptance. After some research, we learned that our deemed perspective of mangos actually originates from South Asia. Not from Mexico. We decided to implement it in the mural to show how similar we really are despite coming from different parts of the world.</string>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZW-Ql-Tak">
@@ -109,39 +96,39 @@
                                                 <string key="text">The Globe was painted with very fine brushwork in order to show the fragility of the earth, and how it is in our Hands to take care of the world, and each other. Another major aspect of that panel is the people, which represent the diversity of our ancestors. We wanted to showcase various cultures and also that even though we see the planet through different windows, we are all like a different slice of pizza. Each slice is needed to complete the circle, the world.
 </string>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGJ-bt-syy">
                                                 <rect key="frame" x="526" y="-36" width="505" height="349"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <mutableString key="text">There are Music Notes painted across the mural, which read the song ‘Ode to Joy’ because this song is about a vision of the human race living together in peace and harmony. Music has the power to create unity and to bring us together. It creates a sense of belonging because it exists in every culture. Music is a universal language. 
+                                                <string key="text">There are Music Notes painted across the mural, which read the song ‘Ode to Joy’ because this song is about a vision of the human race living together in peace and harmony. Music has the power to create unity and to bring us together. It creates a sense of belonging because it exists in every culture. Music is a universal language. 
 
 On the panel we have a Phoenix rising from the ashes. The phoenix is our past ancestors rising and blooming into a bright and powerful phoenix which is now us and our present. This piece was a reminder of what we had to do to make this mural and take part in such an important part of our history as a heresy community. 
-</mutableString>
+</string>
                                                 <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
-                                                <nil key="textColor"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tree &amp; Heart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZW-8Z-ltz">
                                                 <rect key="frame" x="121" y="347" width="259" height="55"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Two Warriors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g52-dC-9TO">
                                                 <rect key="frame" x="670" y="739" width="259" height="55"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Globe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzT-ho-MQ3">
                                                 <rect key="frame" x="134" y="1174" width="259" height="55"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                                <nil key="textColor"/>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
+                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                         </subviews>
@@ -153,8 +140,8 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music &amp; Phoenix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jm7-Ds-iY4">
                                         <rect key="frame" x="614" y="15" width="259" height="55"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HelveticaNeue-Light" family="Helvetica Neue" pointSize="30"/>
-                                        <nil key="textColor"/>
+                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
+                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                 </subviews>
@@ -185,6 +172,19 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="beE-A8-CZj">
+                                <rect key="frame" x="127" y="-11" width="855" height="154"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="About">
+                                        <attributes>
+                                            <color key="NSColor" red="0.77919925567617665" green="0.6297532171217971" blue="0.69063742059739119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="48" name="HelveticaNeue-Light"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="ICH-9m-VmH"/>
