@@ -7,16 +7,20 @@
 
 import UIKit
 
+struct CustomData {
+    var image: UIImage
+}
+
 class pictureViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
-    private var collectionView : UICollectionView?
-    
-    var colors: [UIColor] = [
-        .black,
-        .green,
-        .red,
-        .blue
+    var data = [
+        CustomData(image: UIImage(named:"pic1")!),
+        CustomData(image: UIImage(named:"pic2")!),
+        CustomData(image: UIImage(named:"pic3")!),
+        CustomData(image: UIImage(named:"pic4")!)
     ]
+    
+    private var collectionView : UICollectionView?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,7 +29,7 @@ class pictureViewController: UIViewController, UICollectionViewDelegate, UIColle
         layout.itemSize = CGSize(width: (view.frame.size.width/4)-4, height: (view.frame.size.width/4)-4)
         layout.sectionInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
         collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView?.register(UICollectionViewCell.self,
+        collectionView?.register(CustomCell.self,
                                  forCellWithReuseIdentifier: "cell")
         collectionView?.delegate = self
         collectionView?.dataSource =  self
@@ -64,12 +68,12 @@ class pictureViewController: UIViewController, UICollectionViewDelegate, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return colors.count
+        return data.count
     }
     
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath)
-        cell.backgroundColor = colors[indexPath.row]
+        let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "cell", for: indexPath) as! CustomCell
+        cell.data = self.data[indexPath.row]
         return cell
     }
     
@@ -83,8 +87,8 @@ class pictureViewController: UIViewController, UICollectionViewDelegate, UIColle
     }
     
     func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-        let item = colors.remove(at: sourceIndexPath.row)
-        colors.insert(item, at: destinationIndexPath.row)
+        let item = data.remove(at: sourceIndexPath.row)
+        data.insert(item, at: destinationIndexPath.row)
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumLineSpacingForSectionAt section: Int) -> CGFloat {
@@ -93,5 +97,39 @@ class pictureViewController: UIViewController, UICollectionViewDelegate, UIColle
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, minimumInteritemSpacingForSectionAt section: Int) -> CGFloat {
         return 1
+    }
+}
+
+class CustomCell: UICollectionViewCell {
+    
+    var data: CustomData? {
+        didSet{
+            guard let data = data else {return}
+            image.image = data.image
+        }
+    }
+    
+    fileprivate let image: UIImageView = {
+        let a = UIImageView()
+        a.image = UIImage(named: "pic1")
+        a.translatesAutoresizingMaskIntoConstraints = false
+        a.contentMode = .scaleAspectFill
+        a.clipsToBounds = true
+        return a
+    }()
+    
+    override init(frame: CGRect) {
+        super.init(frame: frame)
+        
+        contentView.addSubview(image)
+        image.topAnchor.constraint(equalTo: contentView.topAnchor).isActive = true
+        image.leadingAnchor.constraint(equalTo: contentView.leadingAnchor).isActive = true
+        image.trailingAnchor.constraint(equalTo: contentView.trailingAnchor).isActive = true
+        image.bottomAnchor.constraint(equalTo: contentView.bottomAnchor).isActive = true
+        
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
 }
