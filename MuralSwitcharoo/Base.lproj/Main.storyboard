@@ -59,7 +59,7 @@
                                                 <gestureRecognizers/>
                                             </imageView>
                                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic2" translatesAutoresizingMaskIntoConstraints="NO" id="aIU-6h-Pks">
-                                                <rect key="frame" x="564" y="311" width="490" height="391"/>
+                                                <rect key="frame" x="528" y="311" width="490" height="391"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
@@ -68,13 +68,8 @@
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <gestureRecognizers/>
                                             </imageView>
-                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic4" translatesAutoresizingMaskIntoConstraints="NO" id="ZyS-Vf-5ng">
-                                                <rect key="frame" x="526" y="1174" width="546" height="418"/>
-                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <gestureRecognizers/>
-                                            </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J4X-Rr-Bpw">
-                                                <rect key="frame" x="526" y="762" width="546" height="427"/>
+                                                <rect key="frame" x="528" y="775" width="526" height="427"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">Here we have the Two Warriors on the mural. The woman on the right stands for cultures from the Eastern Hemisphere, as seen in the architecture on her headpiece, and the woman on the left stands for cultures from the Western Hemisphere, where you can see the Chicago skyline on her headpiece. Both women carry the legacy of cultures and traditions ranging from ancient to modern, and their headpieces represent how much we’ve learned and grown. They are facing each other for two reasons- One, they are welcoming the other and sharing their cultures, traditions, and knowledge. They are also facing each other off in a debate between contrasting opinions, needs, and wants. In this debate, each woman comes to a greater understanding of the other, and her culture. This is a reflection of both our process of creating the mural and our hope for what people will take away from it. Many contrasting cultures came together and had a debate, a conversation, and came to a greater understanding of both ourselves and of each other, and we hope that this piece in the mural, and the mural as a whole, will encourage people to listen to everyone’s unique voice. 
 </string>
@@ -90,8 +85,17 @@
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZW-Ql-Tak">
+                                                <rect key="frame" x="34" y="1203" width="484" height="361"/>
+                                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <string key="text">The Globe was painted with very fine brushwork in order to show the fragility of the earth, and how it is in our Hands to take care of the world, and each other. Another major aspect of that panel is the people, which represent the diversity of our ancestors. We wanted to showcase various cultures and also that even though we see the planet through different windows, we are all like a different slice of pizza. Each slice is needed to complete the circle, the world.
+</string>
+                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
+                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HGJ-bt-syy">
-                                                <rect key="frame" x="526" y="-36" width="505" height="349"/>
+                                                <rect key="frame" x="500" y="-31" width="505" height="349"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 <string key="text">There are Music Notes painted across the mural, which read the song ‘Ode to Joy’ because this song is about a vision of the human race living together in peace and harmony. Music has the power to create unity and to bring us together. It creates a sense of belonging because it exists in every culture. Music is a universal language. 
 
@@ -122,15 +126,11 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iZW-Ql-Tak">
-                                                <rect key="frame" x="34" y="1203" width="484" height="361"/>
+                                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="pic4" translatesAutoresizingMaskIntoConstraints="NO" id="ZyS-Vf-5ng">
+                                                <rect key="frame" x="508" y="1182" width="546" height="418"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <string key="text">The Globe was painted with very fine brushwork in order to show the fragility of the earth, and how it is in our Hands to take care of the world, and each other. Another major aspect of that panel is the people, which represent the diversity of our ancestors. We wanted to showcase various cultures and also that even though we see the planet through different windows, we are all like a different slice of pizza. Each slice is needed to complete the circle, the world.
-</string>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="20"/>
-                                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                                <gestureRecognizers/>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.99529427290000005" green="0.79893356559999995" blue="0.87632453440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
