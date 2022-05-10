@@ -20,7 +20,7 @@
                                 <rect key="frame" x="113" y="101" width="855" height="154"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="LASO, BSA, DAY, Indopak Mural">
+                                    <fragment content="LASO, BSU, DAY, GSA, Indopak Mural">
                                         <attributes>
                                             <color key="NSColor" red="0.56716713114057915" green="0.66677012741004049" blue="0.70071038967225607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="48" name="HelveticaNeue-Light"/>
@@ -110,40 +110,28 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
                                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tree &amp; Heart" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3ZW-8Z-ltz">
-                                                <rect key="frame" x="121" y="347" width="259" height="55"/>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="tree.." translatesAutoresizingMaskIntoConstraints="NO" id="PjP-Qe-cq1">
+                                                <rect key="frame" x="121" y="307" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Two Warriors" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g52-dC-9TO">
-                                                <rect key="frame" x="642" y="725" width="259" height="55"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Two Warriors" translatesAutoresizingMaskIntoConstraints="NO" id="ZV7-8l-q8k">
+                                                <rect key="frame" x="651" y="688" width="240" height="128"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Globe" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hzT-ho-MQ3">
-                                                <rect key="frame" x="121" y="1198" width="259" height="55"/>
+                                            </imageView>
+                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Globe" translatesAutoresizingMaskIntoConstraints="NO" id="hDh-Pd-cmd">
+                                                <rect key="frame" x="139" y="1160" width="207" height="106"/>
                                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
-                                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <nil key="highlightedColor"/>
-                                            </label>
+                                            </imageView>
                                         </subviews>
                                         <color key="backgroundColor" red="0.99529427290000005" green="0.79893356559999995" blue="0.87632453440000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="1600" id="VXc-Pc-Caw"/>
                                         </constraints>
                                     </view>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Music &amp; Phoenix" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Jm7-Ds-iY4">
-                                        <rect key="frame" x="614" y="15" width="259" height="55"/>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="music and phoenix" translatesAutoresizingMaskIntoConstraints="NO" id="DFO-fl-9ed">
+                                        <rect key="frame" x="625" y="-17" width="240" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" name="HiraMinProN-W3" family="Hiragino Mincho ProN" pointSize="30"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="qdg-4t-zpS" firstAttribute="top" secondItem="Vj5-Yw-uKi" secondAttribute="top" constant="103" id="3hr-yi-OFJ"/>
@@ -153,10 +141,10 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
                                 </constraints>
                             </scrollView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" usesAttributedText="YES" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="avz-qd-cPm">
-                                <rect key="frame" x="405" y="93" width="299" height="22"/>
+                                <rect key="frame" x="405" y="93" width="346" height="22"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <attributedString key="attributedText">
-                                    <fragment content="Written by: LASO, BSA, DAY, IndoPak ">
+                                    <fragment content="Written by: LASO, BSU, DAY, GSA, IndoPak ">
                                         <attributes>
                                             <color key="NSColor" red="0.78069978949999996" green="0.6305594444" blue="0.69165486099999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <font key="NSFont" size="18" name="HelveticaNeue-Light"/>
@@ -241,7 +229,7 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
                         <viewLayoutGuide key="safeArea" id="k2U-Zd-2u1"/>
                         <color key="backgroundColor" name="Peach"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="" image="camera" catalog="system" id="gjk-1N-Jfs"/>
+                    <tabBarItem key="tabBarItem" title="" image="pencil.and.outline" catalog="system" id="gjk-1N-Jfs"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="brz-JA-Dod" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -250,14 +238,18 @@ On the panel we have a Phoenix rising from the ashes. The phoenix is our past an
     </scenes>
     <color key="tintColor" red="0.79599236278999141" green="0.024122587882367662" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
     <resources>
-        <image name="camera" catalog="system" width="128" height="94"/>
+        <image name="Globe" width="160" height="118"/>
+        <image name="Two Warriors" width="342" height="102"/>
         <image name="collage" width="3264" height="2256"/>
         <image name="house" catalog="system" width="128" height="106"/>
         <image name="info.circle" catalog="system" width="128" height="121"/>
+        <image name="music and phoenix" width="450" height="126"/>
+        <image name="pencil.and.outline" catalog="system" width="128" height="128"/>
         <image name="pic1" width="911" height="749"/>
         <image name="pic2" width="861" height="696"/>
         <image name="pic3" width="905" height="751"/>
         <image name="pic4" width="933" height="774"/>
+        <image name="tree.." width="308" height="92"/>
         <namedColor name="Cyan">
             <color red="0.78823529411764703" green="0.92156862745098034" blue="0.93725490196078431" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>
